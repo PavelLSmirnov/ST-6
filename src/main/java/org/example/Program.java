@@ -1,3 +1,4 @@
+package org.example;
 // Реализация игры "Крестики-нолики" (3x3)
 // Минимаксный алгоритм
 
@@ -325,11 +326,7 @@ class TicTacToePanel extends JPanel implements ActionListener {
       else if(game.state==State.DRAW) {
         JOptionPane.showMessageDialog(null,"Ничья","Результат", JOptionPane.WARNING_MESSAGE);
         System.exit(0);
-      } 
-
-
-
-
+      }
    }
 }
 
